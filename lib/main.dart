@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'carousel.dart';
 
 void main() {
   runApp(const MyApp());
@@ -14,23 +15,6 @@ class MyApp extends StatelessWidget {
         debugShowCheckedModeBanner: false,
         title: 'Flutter Demo',
         theme: ThemeData(),
-        home: const MyWidget());
-  }
-}
-
-class MyWidget extends StatelessWidget {
-  const MyWidget({super.key});
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-        appBar: AppBar(title: const Text('Boarder')),
-        body: FractionallySizedBox(
-          widthFactor: .9,
-          heightFactor: .7,
-          child: Container(
-            color: Colors.green,
-          ),
-        ));
+        home: const Carousel());
   }
 }

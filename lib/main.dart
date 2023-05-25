@@ -27,13 +27,19 @@ class MyWidget extends StatelessWidget {
       appBar: AppBar(title: const Text('Boarder')),
       body: Center(
         child: Container(
-          decoration: const BoxDecoration(color: Colors.blue, border: Border()),
+          decoration: BoxDecoration(
+              color: Colors.blue,
+              border: Border.all(width: 10, color: Colors.green),
+              borderRadius: BorderRadius.circular(30),
+              gradient:
+                  const LinearGradient(colors: [Colors.green, Colors.yellow])),
           height: 300,
           width: 300,
           child: const Center(
               child: Text(
             'Hello World',
-            style: TextStyle(color: Colors.white, fontSize: 30),
+            style: TextStyle(
+                color: Colors.white, fontSize: 30, fontWeight: FontWeight.bold),
           )),
         ),
       ),

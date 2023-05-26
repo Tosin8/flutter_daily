@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'carousel.dart';
+import 'package:flutter_daily/liquid_swipe.dart';
 
 void main() {
   runApp(const MyApp());
@@ -15,6 +15,6 @@ class MyApp extends StatelessWidget {
         debugShowCheckedModeBanner: false,
         title: 'Flutter Demo',
         theme: ThemeData(),
-        home: const Carousel());
+        home: const LiquidSwipeView());
   }
 }

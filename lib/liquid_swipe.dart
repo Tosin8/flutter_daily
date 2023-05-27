@@ -19,3 +19,5 @@ final pages = [
   codemagicPage,
   welcomePage,
 ];
+
+)

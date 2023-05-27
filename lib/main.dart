@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_daily/frosted_glass.dart';
 import 'package:flutter_daily/liquid_swipe.dart';
 
 void main() {
@@ -15,6 +16,6 @@ class MyApp extends StatelessWidget {
         debugShowCheckedModeBanner: false,
         title: 'Flutter Demo',
         theme: ThemeData(),
-        home: const LiquidSwipeView());
+        home: const Frosted_Glass());
   }
 }

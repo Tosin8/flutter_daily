@@ -1,3 +1,5 @@
+import 'dart:io';
+
 import 'package:flutter/material.dart';
 
 class Exit_App extends StatelessWidget {
@@ -7,7 +9,12 @@ class Exit_App extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Close App'),
+        title: const Text('Close App'),
+        centerTitle: true,
+      ),
+      body: Center(
+        child: ElevatedButton(
+            onPressed: () => exit(0), child: const Text("Exit App")),
       ),
     );
   }

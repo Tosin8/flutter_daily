@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_daily/frosted_glass.dart';
-import 'package:flutter_daily/liquid_swipe.dart';
 
 void main() {
   runApp(const MyApp());

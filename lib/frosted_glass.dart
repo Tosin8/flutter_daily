@@ -28,12 +28,19 @@ class Frosted_Glass extends StatelessWidget {
             body: Container(
                 child: Center(
               child: BackdropFilter(
-                filter: ImageFilter.blur(sigmaX: 10.0, sigmaY: 10.0),
+                filter: ImageFilter.blur(sigmaX: 5.0, sigmaY: 5.0),
                 child: Container(
                   width: 300,
                   height: 300,
-                  decoration: const BoxDecoration(
-                    color: Colors.grey.withOpacity(0.5),
+                  decoration: BoxDecoration(
+                    color: Colors.grey.shade400.withOpacity(0.5),
+                    borderRadius: BorderRadius.circular(50),
+                  ),
+                  child: const Center(
+                    child: Text(
+                      'Hello',
+                      style: TextStyle(fontSize: 30),
+                    ),
                   ),
                 ),
               ),

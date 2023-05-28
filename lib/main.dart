@@ -16,6 +16,6 @@ class MyApp extends StatelessWidget {
         debugShowCheckedModeBanner: false,
         title: 'Flutter Demo',
         theme: ThemeData(),
-        home: const Snack_Bar());
+        home: const SnackBarDemo());
   }
 }

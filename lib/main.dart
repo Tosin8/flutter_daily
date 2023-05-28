@@ -1,7 +1,5 @@
 import 'package:flutter/material.dart';
 
-import 'package:flutter_daily/splash_screen/splash_screen.dart';
-
 import 'snack_bar.dart';
 
 void main() {

@@ -14,9 +14,22 @@ class Transparent_App extends StatelessWidget {
             fit: BoxFit.cover,
           ),
           Scaffold(
+            backgroundColor: Colors.transparent,
             appBar: AppBar(
               title: const Text('My AppBar'),
-              backgroundColor: Colors.transparent,
+              elevation: 0.0,
+              backgroundColor: const Color(0xFFB4C56C).withOpacity(0.5),
+              centerTitle: true,
+            ),
+            body: Container(
+              child: const Center(
+                  child: Text(
+                'Hello',
+                style: TextStyle(
+                  color: Colors.black,
+                  fontSize: 30.0,
+                ),
+              )),
             ),
           )
         ],

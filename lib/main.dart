@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_daily/exit_app.dart';
 import 'package:flutter_daily/frosted_glass.dart';
+import 'package:flutter_daily/splash_screen/splash_screen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -16,6 +17,6 @@ class MyApp extends StatelessWidget {
         debugShowCheckedModeBanner: false,
         title: 'Flutter Demo',
         theme: ThemeData(),
-        home: const Exit_App());
+        home: const SplashScreen());
   }
 }

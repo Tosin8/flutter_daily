@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_daily/exit_app.dart';
-import 'package:flutter_daily/frosted_glass.dart';
+
 import 'package:flutter_daily/splash_screen/splash_screen.dart';
 
 void main() {

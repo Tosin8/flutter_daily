@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 
 import 'package:flutter_daily/splash_screen/splash_screen.dart';
 
+import 'snack_bar.dart';
+
 void main() {
   runApp(const MyApp());
 }
@@ -16,6 +18,6 @@ class MyApp extends StatelessWidget {
         debugShowCheckedModeBanner: false,
         title: 'Flutter Demo',
         theme: ThemeData(),
-        home: const SplashScreen());
+        home: const Snack_Bar());
   }
 }

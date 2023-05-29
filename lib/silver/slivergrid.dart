@@ -5,25 +5,34 @@ class Sliver_App extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const Scaffold(
+    return Scaffold(
         body: SliverAppBar(
       stretch: true,
       expandedHeight: 200,
       flexibleSpace: FlexibleSpaceBar(
-        title: Text(
+        title: const Text(
           'Hello Earth',
           style: TextStyle(
             color: Colors.white,
           ),
         ),
-        stretchModes: [
+        stretchModes: const [
           StretchMode.blurBackground,
           StretchMode.zoomBackground,
         ],
         background: DecoratedBox(
-            decoration: BoxDecoration(
-                gradient: LinearGradient(
-                    colors: [Colors.black45, Colors.transparent]))),
+          decoration: const BoxDecoration(
+              gradient: LinearGradient(
+            colors: [Colors.black45, Colors.transparent],
+            begin: Alignment.bottomCenter,
+            end: Alignment.center,
+            stops: [0.1, 1],
+          )),
+          child: Image.asset(
+            'assets/images/pics.jpg',
+            fit: BoxFit.cover,
+          ),
+        ),
       ),
     ));
   }

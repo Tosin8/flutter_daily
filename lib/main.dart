@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_daily/silver/custom_scroll.dart';
 
 import 'transparent_appbar.dart';
 
@@ -16,6 +17,6 @@ class MyApp extends StatelessWidget {
         debugShowCheckedModeBanner: false,
         title: 'Flutter Demo',
         theme: ThemeData(),
-        home: const Transparent_App());
+        home: const Custom_Scroll());
   }
 }

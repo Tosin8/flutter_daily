@@ -7,7 +7,15 @@ class Custom_Scroll extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       body: CustomScrollView(
-        slivers: [SliverList(delegate: SliverChildListDelegate([]))],
+        slivers: [
+          SliverList(
+              delegate: SliverChildListDelegate([
+            Container(
+              height: 200,
+              color: Colors.amber,
+            ),
+          ]))
+        ],
       ),
     );
   }

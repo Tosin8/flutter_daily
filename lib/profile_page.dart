@@ -54,6 +54,16 @@ class Profile_Page extends StatelessWidget {
                     ))
               ],
             ),
+          ),
+          const Divider(
+            height: 20,
+          ),
+          GridView.count(
+            crossAxisCount: 2,
+            children: [
+              Image.network('https://unsplash.com/photos/QgYG5WKXsKs'),
+              Image.network('https://unsplash.com/photos/QgYG5WKXsKs')
+            ],
           )
         ],
       ),

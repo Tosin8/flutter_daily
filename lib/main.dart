@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+import 'animation/blur_bkg_form.dart';
 import 'profile_page.dart';
 
 void main() {
@@ -16,6 +17,6 @@ class MyApp extends StatelessWidget {
         debugShowCheckedModeBanner: false,
         title: 'Flutter Demo',
         theme: ThemeData(),
-        home: const Profile_Page());
+        home: const Blur_Form());
   }
 }

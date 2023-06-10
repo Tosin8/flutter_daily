@@ -5,6 +5,8 @@ class Blur_Form extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const Placeholder();
+    return Stack(
+      children: [Image.asset('assets/images/bkg.jpg', fit: BoxFit.cover)],
+    );
   }
 }

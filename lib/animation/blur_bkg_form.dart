@@ -6,7 +6,16 @@ class Blur_Form extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Stack(
-      children: [Image.asset('assets/images/bkg.jpg', fit: BoxFit.cover)],
+      children: [
+        Image.asset('assets/images/pics2.jpg', fit: BoxFit.cover),
+        Scaffold(
+          body: Container(
+            height: 300,
+            width: 500,
+            color: Colors.blue,
+          ),
+        )
+      ],
     );
   }
 }

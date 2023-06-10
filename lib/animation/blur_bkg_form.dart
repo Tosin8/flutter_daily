@@ -9,10 +9,16 @@ class Blur_Form extends StatelessWidget {
       children: [
         Image.asset('assets/images/pics2.jpg', fit: BoxFit.cover),
         Scaffold(
-          body: Container(
-            height: 300,
-            width: 500,
-            color: Colors.blue,
+          body: Padding(
+            padding: const EdgeInsets.only(left: 50, top: 100),
+            child: Container(
+              decoration: BoxDecoration(
+                borderRadius: BorderRadius.circular(30),
+              ),
+              height: 300,
+              width: 500,
+              color: Colors.blue,
+            ),
           ),
         )
       ],

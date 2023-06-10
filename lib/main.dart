@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 
 import 'animation/blur_bkg_form.dart';
-import 'profile_page.dart';
 
 void main() {
   runApp(const MyApp());

@@ -7,7 +7,8 @@ class Blur_Form extends StatelessWidget {
   Widget build(BuildContext context) {
     return Stack(
       children: [
-        Image.asset('assets/images/pics2.jpg', fit: BoxFit.cover),
+        Image.asset('assets/images/pics2.jpg',
+                    fit: BoxFit.cover),
         Scaffold(
           body: Padding(
             padding: const EdgeInsets.only(left: 50, top: 100),

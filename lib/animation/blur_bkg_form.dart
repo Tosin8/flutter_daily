@@ -11,7 +11,8 @@ class Blur_Form extends StatelessWidget {
                     fit: BoxFit.cover),
         Scaffold(
           body: Padding(
-            padding: const EdgeInsets.only(left: 50, top: 100),
+            padding: const EdgeInsets.only(left: 50, 
+                                           top: 100),
             child: Container(
               decoration: BoxDecoration(
                 borderRadius: BorderRadius.circular(30),

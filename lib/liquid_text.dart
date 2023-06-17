@@ -5,6 +5,7 @@ import 'package:animated_text_kit/animated_text_kit.dart';
 class LiquidTextView extends StatelessWidget {
   const LiquidTextView({super.key});
 
+  
   @override
   Widget build(BuildContext context) {
     return Scaffold(

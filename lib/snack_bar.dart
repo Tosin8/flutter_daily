@@ -22,6 +22,7 @@ class SnackBarDemo extends StatelessWidget {
   }
 }
 
+
 class SnackBarPage extends StatelessWidget {
   const SnackBarPage({super.key});
 

@@ -1,1 +1,4 @@
+****Explicit animation: 
+
+Explicit animations are a set of controls for telling Flutter how to rapidly rebuild the widget tree while changing widget properties to create animation effects, enabling to create effects that can't be achieved with implicit animations. 
 

@@ -2,3 +2,4 @@
 
 Explicit animations are a set of controls for telling Flutter how to rapidly rebuild the widget tree while changing widget properties to create animation effects, enabling to create effects that can't be achieved with implicit animations. 
 
+  A frame is a single still image that can be used within a sequence of other still images to create the illusion of motion
